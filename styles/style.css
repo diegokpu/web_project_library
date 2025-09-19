@@ -110,8 +110,6 @@
   color: #ffffff;
 }
 
-/* adicionar a regra CSS para sua nova classe aqui. Certifique-se de colocar antes de .card: os pais devem preceder seus filhos */
-
 .staff__cards {
   max-width: 760px;
   margin: 68px auto;
@@ -287,4 +285,108 @@
   text-align: center;
   font-size: 14px;
   margin: 0;
+}
+
+.membership {
+  padding: 100px 0 140px;
+  background-color: #057bf2;
+  color: #ffffff;
+}
+
+.membership__title {
+  max-width: 574px;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 44px;
+  font-weight: 500;
+  line-height: 52px;
+}
+
+.membership__steps {
+  list-style-type: none;
+  padding: 0;
+  margin: 100px 0 0;
+  display: flex;
+  flex-basis: auto;
+  justify-content: center;
+}
+
+.step {
+  margin: 0 20px 0 20px;
+  flex-direction: column;
+  max-width: 220px;
+}
+
+.step__title {
+  margin: 0;
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+}
+
+.step__icon {
+  margin-left: 20px;
+}
+
+.step__description {
+  margin: 10px 0 0;
+}
+
+.footer {
+  box-sizing: border-box;
+  background-color: #1f1f1f;
+  color: #ffffff;
+  padding: 60px 80px;
+}
+
+.footer__columns {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0;
+}
+
+.footer__column_content_hours {
+  margin-left: auto;
+}
+
+.footer__column_content_social {
+  margin-left: 80px;
+}
+
+.footer__logo {
+  height: 80px;
+  width: 58px;
+}
+
+.footer__column-heading {
+  margin-top: 0;
+  margin-bottom: 4px;
+}
+
+.footer__list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer__list-item {
+  margin-top: 16px;
+}
+
+.footer__column-link {
+  color: white;
+  text-decoration: none;
+}
+
+.footer__social-icon {
+  height: 16px;
+  width: 16px;
+  margin-right: 10px;
+}
+
+.footer__copyright {
+  margin-bottom: 0;
+  margin-top: 100px;
 }
